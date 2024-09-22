@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário Conta</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="icon" href="../asset/image/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="../asset/style/conta.css">
+</head>
+<body>
+	<div class="back-button" id="contabt" onclick="goBack()">
+		&#8592; Voltar
+	</div>
+	<h1>Conta</h1>
+	<form id="conta_colegio">
+		<label for="nome_conta">Nome da Conta:</label>
+		<input type="text" id="nome_conta">
+		<br>
+		
+		<label for="descricao_conta">Descrição Da Conta:</label>
+		<input type="text" id="descricao_conta">
+		<br>
+		<div class="btn-class">
+			<button type="button" id="submit-btn-salvar" onclick="salvar()">Salvar</button>
+			<button type="button" id="submit-btn-consultar" onclick="consultar()">Consultar</button>
+			<button type="button" id="submit-btn-alterar" onclick="alterar()">Alterar</button>
+			<button type="button" id="submit-btn-apagar" onclick="apagar()">Apagar</button>	
+		</div>	
+	</form>	
+	<script src="../script/conta.js"></script>
+</body>
+</html>

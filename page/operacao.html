@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário Operação</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">	
+	<link rel="icon" href="../asset/image/logo.png" type="image/x-icon">
+	<link rel="stylesheet" href="../asset/style/operacao.css">
+	
+</head>
+<body>
+	<div class="back-button" id="contabt" onclick="goBack()">
+		&#8592; Voltar
+	</div>
+	<h1>Operação</h1>
+	<form id="operacao_colegio">
+		<label for="nome_operacao">Nome da Operação:</label>
+		<input type="text" id="nome_operacao"><br>
+		<br>
+		<div class="btn-class">
+			<button type="button" id="submit-btn-salvar" onclick="salvar()">Salvar</button>
+			<button type="button" id="submit-btn-consultar" onclick="consultar()">Consultar</button>
+			<button type="button" id="submit-btn-alterar" onclick="alterar()">Alterar</button>
+			<button type="button" id="submit-btn-apagar" onclick="apagar()">Apagar</button>
+		</div>
+	</form>	
+	<script src="../script/operacao.js"></script>
+</body>
+</html>
