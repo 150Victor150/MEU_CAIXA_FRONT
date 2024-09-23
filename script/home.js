@@ -19,3 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
     link.href = 'operacao.html'; // Substitua pelo URL da página desejada
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const link = document.getElementById('relatoriobt');
+
+    // Define o destino do link dinamicamente
+    link.href = 'relatorios.html'; // Substitua pelo URL da página desejada
+});
